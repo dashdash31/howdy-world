@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    </head>
+    <style>
+        h1 {
+            color: blueviolet;
+        }
+        p {
+            color: green;
+            font-size: 50px;
+            font: "";
+        } 
+        body {
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+        
+               /* Class Selector: Applies to many elements */
+.yeep {
+color: blue;
+}
+.peep {
+color: salmon;
+}
+               /* ID Selector: Applies to one element*/
+#cheep {
+    color: skyblue;
+}
+    </style>
+    <body>
+        <!-- Comment County -->
+        <h1 id="cheep">hello world</h1>
+        <p class="yeep">Awww Yeayuh, Baybeee!</p>
+        <p class="peep">Let's have a goo, shall we?</p>
+        <a href="http://google.com">Big Linkus</a>
+        <ul>
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+            <li>item 4</li>
+            <li>item 5</li>
+        </ul>
+        <ol>
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+            <li>item 4</li>
+            <li>item 5</li>
+        </ol>
+    </body>
+</html>
